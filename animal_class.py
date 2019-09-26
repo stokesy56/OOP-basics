@@ -1,6 +1,6 @@
 class Animal():
 
-    # Characteristics
+    # Parameters
     def __init__(self, name, eyes = 2, health = 100): #runs only once when you initialise an object # can't be edited when called
         self.name = name
         self.number_eyes = eyes
@@ -11,8 +11,7 @@ class Animal():
 
 
 
-    # Behaviours
-
+    # Methods
     def eat(self, food):
         return f'NOM NOM NOM {food}'
 
